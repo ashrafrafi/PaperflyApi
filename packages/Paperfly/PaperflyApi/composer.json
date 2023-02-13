@@ -1,0 +1,19 @@
+{
+    "name": "paperfly/paperfly-api",
+    "description": "Paperfly Registration & Order Management API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Md. Ashrafuzzaman Rafi",
+            "email": "md.ashsrafuzzaman@paperfly.com.bd"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Paperfly\\PaperflyApi\\": "packages/Paperfly/PaperflyApi/src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
